@@ -1,0 +1,17 @@
+{
+  "name": "AI Agentic Development Environment",
+  "image": "mcr.microsoft.com/devcontainers/universal:linux",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "github.copilot",
+        "github.copilot-chat",
+        "eamodio.gitlens",
+        "esbenp.prettier-vscode"
+      ],
+      "settings": {
+        "editor.formatOnSave": true
+      }
+    }
+  }
+}
